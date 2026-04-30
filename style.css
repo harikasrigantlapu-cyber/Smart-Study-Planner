@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.box {
+  background: white;
+  color: black;
+  padding: 20px;
+  margin: 20px auto;
+  width: 360px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input, select, button {
+  margin: 8px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.task {
+  background: white;
+  color: black;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  transition: 0.5s;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.edit-btn {
+  background: #4caf50;
+}
+
+.delete-btn {
+  background: #f44336;
+}
